@@ -1,7 +1,7 @@
-# Swiggy Data Analysis Pipeline using Azure & PySpark
+# Swiggy Data Pipeline using PySpark & Azure
 
 ## Overview
-This project implements an end-to-end data pipeline using PySpark on Azure Databricks to process and analyze restaurant data.
+This project demonstrates an end-to-end data pipeline built using PySpark on Azure Databricks to process restaurant data.
 
 ## Tech Stack
 - PySpark
@@ -10,20 +10,27 @@ This project implements an end-to-end data pipeline using PySpark on Azure Datab
 - Azure Cosmos DB
 - SQL
 
-## Pipeline Architecture
-1. Data Ingestion from Azure Blob Storage  
-2. Data Cleaning & Transformation using PySpark  
-3. Data Validation and Filtering  
-4. Storage in Azure Cosmos DB  
+## Workflow
+1. Data ingestion from Azure Blob Storage  
+2. Data cleaning and transformation using PySpark  
+3. Handling missing and inconsistent data  
+4. Data validation and filtering  
+5. Storing processed data in Cosmos DB  
 
 ## Key Features
 - Distributed data processing using Spark  
-- Handling missing and inconsistent data  
-- Schema transformation and type casting  
-- Data quality validation  
+- Schema handling and data type casting  
+- Data quality checks  
+- Cloud-based data pipeline  
 
-## Sample Transformations
-- Null value handling  
-- Rating normalization  
-- Filtering invalid records  
+## Project Structure
+- notebooks/ → PySpark notebook  
+- report/ → Project documentation  
 
+## Learnings
+- Hands-on experience with PySpark transformations  
+- Building ETL pipelines in Azure  
+- Working with large-scale datasets  
+
+## Note
+Sensitive credentials have been removed.
